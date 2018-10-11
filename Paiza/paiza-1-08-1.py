@@ -15,5 +15,8 @@
 '''
 import random
 number = random.randint(1, 10)  # 匹数 1 ～ 10
+apple_price = 100	# スライムの体重
 print("体重100キロのスライムが" + str(number) + "匹あらわれた")
+total = apple_num * number
+print(“スライムの合計体重は” + str(total) + “キロです”)
 # 合計体重 = 匹数 x 100

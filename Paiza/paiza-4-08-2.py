@@ -19,9 +19,11 @@
 大吉
 '''
 # おみくじプログラム
-
 import random
-line = input().rstrip()
+line = input().rstrip().split(“,”)
+nam = len(line)
+num = random.randrange(nam)
+print = (line[num])
 
 # 今回は自力で全部書いてみよう！
 

@@ -15,8 +15,7 @@ seireki変数には、西暦年として 1926~1988 の中から選ばれた数�
 import random
 seireki = random.randint(1926, 1988) #西暦年
 print("西暦" + str(seireki) + "年は", end = "")
+syouwa = seireki - 1925
+print(“昭和” + str(syouwa) + ”年です”) 
 
 # 昭和年を計算
-showa = 0
-# 昭和年を出力
-print("昭和" + str(showa) + "年です。")
